@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "2040-Zero") (type "KiCad") (uri "${KIPRJMOD}/LocalModels") (options "") (descr ""))
+)
