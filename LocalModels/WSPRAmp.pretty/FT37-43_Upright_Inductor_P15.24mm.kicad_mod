@@ -1,0 +1,114 @@
+(footprint "FT37-43_Upright_Inductor_P15.24mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "FT37-43 upright inductor; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 1 mm drills. https://www.amidoncorp.com/ft-37-43/. 3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity.")
+	(property "Reference" "REF**"
+		(at 7.62 -4 0)
+		(layer "F.SilkS")
+		(uuid "5c120706-5e1d-42de-9f82-d8bc98b9e12a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FT37-43_Upright_Inductor_P15.24mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e992fa8c-887a-4ff7-8f2c-0d513e83cfdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "106eba25-413b-469a-9a04-91d1e964954a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "858ef076-f6a2-4694-aed9-b822f7bddb9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 1.75 -2.62)
+		(end 13.49 2.62)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ff216566-8a35-46e8-97b6-981d3b4dcad8")
+	)
+	(fp_rect
+		(start -1.5 -3)
+		(end 16.739999 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7c07a7e-a073-41ba-b14c-6932f9530017")
+	)
+	(fp_rect
+		(start 1.87 -2.5)
+		(end 13.37 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0beb6244-2c0e-4500-813e-2f13bb36f2df")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbd927b2-52d7-4e8f-bdc8-f76a17918694")
+	)
+	(pad "2" thru_hole circle
+		(at 15.24 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cada46e3-35b1-490b-9d10-b100fa734854")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LocalModels/3d_model/FT37-43_BareCore_Upright.wrl"
+		(offset
+			(xyz 7.62 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

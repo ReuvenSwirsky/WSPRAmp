@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\repos\WSPRAmp\WSPRAmp.kicad_sch</source>
+    <date>2026-09-08T15:37:50</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WSPRAmp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>220pf</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Device">C</field>
+        <field name="Sim.Params">C=220pf</field>
+        <field name="KiLib_Generator">capacitor/THT/other</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="cap" description=""/>
+      <property name="Sim.Device" value="C"/>
+      <property name="Sim.Params" value="C=220pf"/>
+      <property name="KiLib_Generator" value="capacitor/THT/other"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5afb7dd3-7c64-4c12-87e9-8737ad819046</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Device">C</field>
+        <field name="Sim.Params">C=10nf</field>
+        <field name="KiLib_Generator">capacitor/THT/other</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="cap" description=""/>
+      <property name="Sim.Device" value="C"/>
+      <property name="Sim.Params" value="C=10nf"/>
+      <property name="KiLib_Generator" value="capacitor/THT/other"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2139429f-35cd-4977-bbde-554f075c760f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>32pF</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Device">C</field>
+        <field name="Sim.Params">C=32pF</field>
+        <field name="KiLib_Generator">capacitor/THT/other</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="cap" description=""/>
+      <property name="Sim.Device" value="C"/>
+      <property name="Sim.Params" value="C=32pF"/>
+      <property name="KiLib_Generator" value="capacitor/THT/other"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c39e819d-e6d1-46be-8495-5c8875c51475</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>70.26pF</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Device">C</field>
+        <field name="Sim.Params">C=70.26pF</field>
+        <field name="KiLib_Generator">capacitor/THT/other</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="cap" description=""/>
+      <property name="Sim.Device" value="C"/>
+      <property name="Sim.Params" value="C=70.26pF"/>
+      <property name="KiLib_Generator" value="capacitor/THT/other"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93eee333-8342-471e-8108-b91ded880029</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>227.36pF</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Device">C</field>
+        <field name="Sim.Params">C=227.36pF</field>
+        <field name="KiLib_Generator">capacitor/THT/other</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="cap" description=""/>
+      <property name="Sim.Device" value="C"/>
+      <property name="Sim.Params" value="C=227.36pF"/>
+      <property name="KiLib_Generator" value="capacitor/THT/other"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c99ee936-d278-49f6-b618-203c205f5af1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>70.26pF</value>
+      <footprint>Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Sim.Device">C</field>
+        <field name="Sim.Params">C=70.26pF</field>
+        <field name="KiLib_Generator">capacitor/THT/other</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="cap" description=""/>
+      <property name="Sim.Device" value="C"/>
+      <property name="Sim.Params" value="C=70.26pF"/>
+      <property name="KiLib_Generator" value="capacitor/THT/other"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>852e2ed5-3c5f-40ec-acd8-55a3b5ab3ce5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial_Small</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <description>small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <fields>
+        <field name="Footprint">Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</field>
+        <field name="Datasheet"/>
+        <field name="Description">small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial_Small" description="small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a535b864-de28-402b-b9a4-347b49eb8dac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="KiLib_Generator">connector/pin_header_socket</field>
+        <field name="Footprint">Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="KiLib_Generator" value="connector/pin_header_socket"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c457b588-b25e-4757-bab8-ca00f96152db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>1µH</value>
+      <footprint>Inductor_THT:L_Axial_L14.0mm_D4.5mm_P7.62mm_Vertical_Fastron_LACC</footprint>
+      <fields>
+        <field name="Sim.Device">L</field>
+        <field name="Sim.Params">L=1µH</field>
+        <field name="KiLib_Generator">choke_THT</field>
+        <field name="Footprint">Inductor_THT:L_Axial_L14.0mm_D4.5mm_P7.62mm_Vertical_Fastron_LACC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="ind" description=""/>
+      <property name="Sim.Device" value="L"/>
+      <property name="Sim.Params" value="L=1µH"/>
+      <property name="KiLib_Generator" value="choke_THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfc90a77-c5cf-43d0-82d3-ff9d6f34fe39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>.46µH</value>
+      <footprint>WSPRAmp:FT37-43_Upright_Inductor_P15.24mm</footprint>
+      <fields>
+        <field name="Sim.Device">L</field>
+        <field name="Sim.Params">L=.46µH</field>
+        <field name="KiLib_Generator">choke_THT</field>
+        <field name="Footprint">WSPRAmp:FT37-43_Upright_Inductor_P15.24mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="ind" description=""/>
+      <property name="Sim.Device" value="L"/>
+      <property name="Sim.Params" value="L=.46µH"/>
+      <property name="KiLib_Generator" value="choke_THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed1a153d-44e1-4164-b836-b5047aaa3f60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>.46µH</value>
+      <footprint>WSPRAmp:FT37-43_Upright_Inductor_P15.24mm</footprint>
+      <fields>
+        <field name="Sim.Device">L</field>
+        <field name="Sim.Params">L=.46µH</field>
+        <field name="KiLib_Generator">choke_THT</field>
+        <field name="Footprint">WSPRAmp:FT37-43_Upright_Inductor_P15.24mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="ind" description=""/>
+      <property name="Sim.Device" value="L"/>
+      <property name="Sim.Params" value="L=.46µH"/>
+      <property name="KiLib_Generator" value="choke_THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b396414c-5641-48f4-8112-e0b598501e71</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LP1">
+      <value>2.5µH</value>
+      <footprint>WSPRAmp:FT37-43_Upright_Bifilar_Primary</footprint>
+      <fields>
+        <field name="Sim.Device">L</field>
+        <field name="Sim.Params">L=2.5µH</field>
+        <field name="KiLib_Generator">choke_THT</field>
+        <field name="Footprint">WSPRAmp:FT37-43_Upright_Bifilar_Primary</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="ind" description=""/>
+      <property name="Sim.Device" value="L"/>
+      <property name="Sim.Params" value="L=2.5µH"/>
+      <property name="KiLib_Generator" value="choke_THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6733d36-820f-4589-b52d-cbd724551a0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LS1">
+      <value>2.5µH</value>
+      <footprint>WSPRAmp:FT37-43_Upright_Bifilar_Secondary</footprint>
+      <fields>
+        <field name="Sim.Device">L</field>
+        <field name="Sim.Params">L=2.5µH</field>
+        <field name="KiLib_Generator">choke_THT</field>
+        <field name="Footprint">WSPRAmp:FT37-43_Upright_Bifilar_Secondary</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="ind" description=""/>
+      <property name="Sim.Device" value="L"/>
+      <property name="Sim.Params" value="L=2.5µH"/>
+      <property name="KiLib_Generator" value="choke_THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed08ec18-257d-40db-8c16-6b393f9e0a4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical</footprint>
+      <fields>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Params">R=100k</field>
+        <field name="KiLib_Generator">resistor/THT</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="res" description=""/>
+      <property name="Sim.Device" value="R"/>
+      <property name="Sim.Params" value="R=100k"/>
+      <property name="KiLib_Generator" value="resistor/THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26d51c17-aae7-40d7-85a7-99aab954b668</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal</footprint>
+      <fields>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Params">R=100</field>
+        <field name="KiLib_Generator">resistor/THT</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="res" description=""/>
+      <property name="Sim.Device" value="R"/>
+      <property name="Sim.Params" value="R=100"/>
+      <property name="KiLib_Generator" value="resistor/THT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34edb5b2-7f14-4a82-9647-f19000c3714d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RV1">
+      <value>R_Potentiometer_US</value>
+      <footprint>Potentiometer_SMD:Potentiometer_ACP_CA14-VSMD_Vertical</footprint>
+      <fields>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Type">POT</field>
+        <field name="Sim.Pins">1=r0 2=wiper 3=r1</field>
+        <field name="KiLib_Generator">potentiometer/SMD</field>
+        <field name="Footprint">Potentiometer_SMD:Potentiometer_ACP_CA14-VSMD_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sim.Device" value="R"/>
+      <property name="Sim.Type" value="POT"/>
+      <property name="Sim.Pins" value="1=r0 2=wiper 3=r1"/>
+      <property name="KiLib_Generator" value="potentiometer/SMD"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33952981-583d-4650-8b09-57a4bd2ebf80</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RZ1">
+      <value>RP2040-Zero</value>
+      <footprint>Private:RP2040-Zero</footprint>
+      <fields>
+        <field name="Footprint">Private:RP2040-Zero</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2040-Zero" part="RP2040-Zero" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9acdfee3-d712-4c8e-ab5d-36610e35b4da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>T2N7002AK_G0_00</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <fields>
+        <field name="Sim.Library">Contrib/Toshiba/LVMOS/T2N7002AK_G0_00_enc.lib</field>
+        <field name="Sim.Name">CONTRIB/TOSHIBA/LVMOS/T2N7002AK_G0_00</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ltspice" part="Contrib/Toshiba/lvmos/T2N7002AK_G0_00" description=""/>
+      <property name="Sim.Library" value="Contrib/Toshiba/LVMOS/T2N7002AK_G0_00_enc.lib"/>
+      <property name="Sim.Name" value="CONTRIB/TOSHIBA/LVMOS/T2N7002AK_G0_00"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="WSPRAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76a7ee51-6310-4b3e-9ae0-e9d269fbc33c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2040-Zero" part="RP2040-Zero">
+      <fields>
+        <field name="Reference">RZ</field>
+        <field name="Value">RP2040-Zero</field>
+        <field name="Footprint">RP2040-Zero:RP2040-Zero</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="bidirectional"/>
+        <pin num="2" name="GP1" type="bidirectional"/>
+        <pin num="3" name="GP2" type="bidirectional"/>
+        <pin num="4" name="GP3" type="bidirectional"/>
+        <pin num="5" name="GP4" type="bidirectional"/>
+        <pin num="6" name="GP5" type="bidirectional"/>
+        <pin num="7" name="GP6" type="bidirectional"/>
+        <pin num="8" name="GP7" type="bidirectional"/>
+        <pin num="9" name="GP8" type="bidirectional"/>
+        <pin num="10" name="GP9" type="bidirectional"/>
+        <pin num="11" name="GP10" type="bidirectional"/>
+        <pin num="12" name="GP11" type="bidirectional"/>
+        <pin num="13" name="GP12" type="bidirectional"/>
+        <pin num="14" name="GP13" type="bidirectional"/>
+        <pin num="15" name="GP14" type="bidirectional"/>
+        <pin num="16" name="GP15" type="bidirectional"/>
+        <pin num="17" name="GP26" type="bidirectional"/>
+        <pin num="18" name="GP27" type="bidirectional"/>
+        <pin num="19" name="GP28" type="bidirectional"/>
+        <pin num="20" name="GP29" type="bidirectional"/>
+        <pin num="21" name="3V3" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial_Small">
+      <description>small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer, US symbol</field>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Type">POT</field>
+        <field name="Sim.Pins">1=r0 2=wiper 3=r1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ltspice" part="Contrib/Toshiba/lvmos/T2N7002AK_G0_00">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ltspice" part="cap">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ltspice" part="ind">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ltspice" part="res">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2040-Zero">
+      <uri>${KIPRJMOD}/LocalModels</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="RZ1" pin="23" pinfunction="5V_23" pintype="power_in"/>
+    </net>
+    <net code="2" name="/PiGPIO4in" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="RZ1" pin="7" pinfunction="GP6_7" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/out" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In_1" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Ext_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="RZ1" pin="22" pinfunction="GND_22" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="2_3" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="LP1" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad2)" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad1)" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="LS1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad1)" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-Pin_1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="RZ1" pin="21" pinfunction="3V3_21" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(J2-Pin_3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="RZ1" pin="2" pinfunction="GP1_2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(J2-Pin_5)" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="RZ1" pin="3" pinfunction="GP2_3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad2)" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(U3-1)" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="1_2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U3-3)" class="Default">
+      <node ref="LP1" pin="2" pintype="passive"/>
+      <node ref="LS1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="3_1" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(J2-Pin_4-Pad4)" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(RZ1-GP0-Pad1)" class="Default">
+      <node ref="RZ1" pin="1" pinfunction="GP0_1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(RZ1-GP3-Pad4)" class="Default">
+      <node ref="RZ1" pin="4" pinfunction="GP3_4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(RZ1-GP4-Pad5)" class="Default">
+      <node ref="RZ1" pin="5" pinfunction="GP4_5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(RZ1-GP5-Pad6)" class="Default">
+      <node ref="RZ1" pin="6" pinfunction="GP5_6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(RZ1-GP7-Pad8)" class="Default">
+      <node ref="RZ1" pin="8" pinfunction="GP7_8" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(RZ1-GP8-Pad9)" class="Default">
+      <node ref="RZ1" pin="9" pinfunction="GP8_9" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(RZ1-GP9-Pad10)" class="Default">
+      <node ref="RZ1" pin="10" pinfunction="GP9_10" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(RZ1-GP10-Pad11)" class="Default">
+      <node ref="RZ1" pin="11" pinfunction="GP10_11" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(RZ1-GP11-Pad12)" class="Default">
+      <node ref="RZ1" pin="12" pinfunction="GP11_12" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(RZ1-GP12-Pad13)" class="Default">
+      <node ref="RZ1" pin="13" pinfunction="GP12_13" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(RZ1-GP13-Pad14)" class="Default">
+      <node ref="RZ1" pin="14" pinfunction="GP13_14" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(RZ1-GP14-Pad15)" class="Default">
+      <node ref="RZ1" pin="15" pinfunction="GP14_15" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(RZ1-GP15-Pad16)" class="Default">
+      <node ref="RZ1" pin="16" pinfunction="GP15_16" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(RZ1-GP26-Pad17)" class="Default">
+      <node ref="RZ1" pin="17" pinfunction="GP26_17" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(RZ1-GP27-Pad18)" class="Default">
+      <node ref="RZ1" pin="18" pinfunction="GP27_18" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(RZ1-GP28-Pad19)" class="Default">
+      <node ref="RZ1" pin="19" pinfunction="GP28_19" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(RZ1-GP29-Pad20)" class="Default">
+      <node ref="RZ1" pin="20" pinfunction="GP29_20" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

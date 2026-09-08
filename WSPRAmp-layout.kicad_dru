@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "Edge-launch SMA pads meet the board edge"
+    (condition "A.Type == 'Pad' && A.memberOfFootprint('J1')")
+    (constraint edge_clearance (min 0mm)))

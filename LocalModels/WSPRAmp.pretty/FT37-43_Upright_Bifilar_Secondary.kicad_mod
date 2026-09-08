@@ -1,0 +1,81 @@
+(footprint "FT37-43_Upright_Bifilar_Secondary"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "FT37-43 upright secondary; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 1 mm drills. https://www.amidoncorp.com/ft-37-43/. 3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity.")
+	(property "Reference" "REF**"
+		(at 7.62 -4 0)
+		(layer "F.SilkS")
+		(uuid "09ceb8ac-365b-43b4-9ff5-93e646cb4299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FT37-43_Upright_Bifilar_Secondary"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca704732-5971-4926-92cf-dc63d453bf21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3dc9f77-f5e4-4f70-b8dd-f2d5a7b657f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67433ee5-0b64-4e3c-beb6-80ffd157b566")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.5 -3.2)
+		(end 16.739999 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "631be73a-1655-4ba7-80e8-ce2f566cbea2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da5d4e2a-0d5c-4fef-8189-966887017246")
+	)
+	(pad "2" thru_hole circle
+		(at 15.24 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a308254-6958-4d33-9b98-30314d10206e")
+	)
+	(embedded_fonts no)
+)

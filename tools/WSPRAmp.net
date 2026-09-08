@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "D:\\repos\\WSPRAmp\\WSPRAmp.kicad_sch")
-		(date "2026-09-08T14:50:26")
+		(date "2026-09-08T15:38:19")
 		(tool "Eeschema 10.0.5")
 		(sheet
 			(number "1")
@@ -628,7 +628,7 @@
 		(comp
 			(ref "L2")
 			(value ".46µH")
-			(footprint "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC")
+			(footprint "WSPRAmp:FT37-43_Upright_Inductor_P15.24mm")
 			(fields
 				(field
 					(name "Sim.Device") "L")
@@ -637,7 +637,7 @@
 				(field
 					(name "KiLib_Generator") "choke_THT")
 				(field
-					(name "Footprint") "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC")
+					(name "Footprint") "WSPRAmp:FT37-43_Upright_Inductor_P15.24mm")
 				(field
 					(name "Datasheet")
 				)
@@ -692,7 +692,7 @@
 		(comp
 			(ref "L3")
 			(value ".46µH")
-			(footprint "Inductor_THT:L_Axial_L14.0mm_D4.5mm_P7.62mm_Vertical_Fastron_LACC")
+			(footprint "WSPRAmp:FT37-43_Upright_Inductor_P15.24mm")
 			(fields
 				(field
 					(name "Sim.Device") "L")
@@ -701,7 +701,7 @@
 				(field
 					(name "KiLib_Generator") "choke_THT")
 				(field
-					(name "Footprint") "Inductor_THT:L_Axial_L14.0mm_D4.5mm_P7.62mm_Vertical_Fastron_LACC")
+					(name "Footprint") "WSPRAmp:FT37-43_Upright_Inductor_P15.24mm")
 				(field
 					(name "Datasheet")
 				)
@@ -756,7 +756,7 @@
 		(comp
 			(ref "LP1")
 			(value "2.5µH")
-			(footprint "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC")
+			(footprint "WSPRAmp:FT37-43_Upright_Bifilar_Primary")
 			(fields
 				(field
 					(name "Sim.Device") "L")
@@ -765,7 +765,7 @@
 				(field
 					(name "KiLib_Generator") "choke_THT")
 				(field
-					(name "Footprint") "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC")
+					(name "Footprint") "WSPRAmp:FT37-43_Upright_Bifilar_Primary")
 				(field
 					(name "Datasheet")
 				)
@@ -820,7 +820,7 @@
 		(comp
 			(ref "LS1")
 			(value "2.5µH")
-			(footprint "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC")
+			(footprint "WSPRAmp:FT37-43_Upright_Bifilar_Secondary")
 			(fields
 				(field
 					(name "Sim.Device") "L")
@@ -829,7 +829,7 @@
 				(field
 					(name "KiLib_Generator") "choke_THT")
 				(field
-					(name "Footprint") "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC")
+					(name "Footprint") "WSPRAmp:FT37-43_Upright_Bifilar_Secondary")
 				(field
 					(name "Datasheet")
 				)
