@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "FT37-43 upright inductor; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 1 mm drills. https://www.amidoncorp.com/ft-37-43/. 3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity.")
+	(descr "FT37-43 upright inductor; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 0.8 mm drills. https://www.amidoncorp.com/ft-37-43/. 3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity.")
 	(property "Reference" "REF**"
 		(at 7.62 -4 0)
 		(layer "F.SilkS")
@@ -86,7 +86,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2 2)
-		(drill 1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fbd927b2-52d7-4e8f-bdc8-f76a17918694")
@@ -94,7 +94,7 @@
 	(pad "2" thru_hole circle
 		(at 15.24 0)
 		(size 2 2)
-		(drill 1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cada46e3-35b1-490b-9d10-b100fa734854")

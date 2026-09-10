@@ -14,12 +14,21 @@ TOROID_FOOTPRINTS = {
     "LP1": "FT37-43_Upright_Bifilar_Primary",
     "LS1": "FT37-43_Upright_Bifilar_Secondary",
 }
+LOCAL_FOOTPRINTS = {
+    **TOROID_FOOTPRINTS,
+    "RV1": "Potentiometer_Trimmer_Horizontal_Triangle_P5.00mm_H5.00mm",
+    "RZ1": "RP2040-Zero_Headers_P2.54mm",
+}
 replaced_footprints = []
-for reference, name in TOROID_FOOTPRINTS.items():
+for reference, name in {**LOCAL_FOOTPRINTS, "R3": None}.items():
     original = footprints[reference]
-    replacement = pcbnew.FootprintLoad(str(ROOT / "LocalModels" / "WSPRAmp.pretty"), name)
-    assert replacement is not None, f"Missing local footprint: {name}"
-    replacement.SetFPID(pcbnew.LIB_ID("WSPRAmp", name))
+    if reference == "R3":
+        replacement = pcbnew.Cast_to_FOOTPRINT(footprints["R1"].Duplicate(False))
+        replacement.SetFields({field.GetName(): field.GetText() for field in original.GetFields()})
+    else:
+        replacement = pcbnew.FootprintLoad(str(ROOT / "LocalModels" / "WSPRAmp.pretty"), name)
+        assert replacement is not None, f"Missing local footprint: {name}"
+        replacement.SetFPID(pcbnew.LIB_ID("WSPRAmp", name))
     replacement.SetReference(reference)
     replacement.SetValue(original.GetValue())
     replacement.SetPath(original.GetPath())
@@ -35,6 +44,11 @@ for reference, name in TOROID_FOOTPRINTS.items():
 
 def point(horizontal, vertical):
     return pcbnew.VECTOR2I(pcbnew.FromMM(horizontal), pcbnew.FromMM(vertical))
+
+
+for reference in ("C1", "C2", "C3", "C4", "C5", "C6", "L1", "L2", "L3", "LP1", "LS1"):
+    for pad in footprints[reference].Pads():
+        pad.SetDrillSize(point(0.8, 0.8))
 
 
 def rectangle(parent, layer, left, top, right, bottom, width=0.05):
@@ -238,7 +252,7 @@ def escape(reference, number, horizontal, vertical, layer=pcbnew.F_Cu):
 
 via_at(48.22, 84, get_pad("RZ1", 21).GetNet())
 escape("RZ1", 21, 48.22, 84)
-route(("J2", 1), ("RZ1", 21), [(42, 40), (42, 77.78)],
+route(("J2", 1), ("RZ1", 21), [(41.7, 40), (41.7, 83.5)],
     width=0.4, layer=pcbnew.B_Cu, end_at=(48.22, 84))
 
 ground_vias = [
@@ -251,7 +265,6 @@ ground_vias = [
 for horizontal, vertical in ground_vias:
     via_at(horizontal, vertical, ground)
 escape("RZ1", 22, 45.68, 83)
-escape("RV1", 3, 91, 78.8)
 escape("U3", 3, 69.46, 50.5)
 
 for reference in ("U3", "C4", "C5", "C6", "J1"):

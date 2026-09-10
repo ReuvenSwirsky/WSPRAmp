@@ -3569,7 +3569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA14-VSMD_Vertical"
+		(property "Footprint" "WSPRAmp:Potentiometer_Trimmer_Horizontal_Triangle_P5.00mm_H5.00mm"
 			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3697,7 +3697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 140.97 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4505,7 +4505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Private:RP2040-Zero"
+		(property "Footprint" "WSPRAmp:RP2040-Zero_Headers_P2.54mm"
 			(at 35.1633 127 0)
 			(show_name no)
 			(do_not_autoplace no)

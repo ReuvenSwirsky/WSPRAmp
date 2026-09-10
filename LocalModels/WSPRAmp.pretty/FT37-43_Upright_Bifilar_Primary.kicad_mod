@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "FT37-43 upright primary; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 1 mm drills. https://www.amidoncorp.com/ft-37-43/. 3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity.")
+	(descr "FT37-43 upright primary; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 0.8 mm drills. https://www.amidoncorp.com/ft-37-43/. 3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity.")
 	(property "Reference" "REF**"
 		(at 7.62 -4 0)
 		(layer "F.SilkS")
@@ -86,7 +86,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2 2)
-		(drill 1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2ef9601e-3855-4d45-94ca-b25361c60e7f")
@@ -94,7 +94,7 @@
 	(pad "2" thru_hole circle
 		(at 15.24 0)
 		(size 2 2)
-		(drill 1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "25d4d9b2-19dd-4769-9c15-61a0f890552d")

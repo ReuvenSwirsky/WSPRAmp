@@ -36,7 +36,7 @@ def make_footprint(name, role):
     footprint.SetAttributes(pcbnew.FP_THROUGH_HOLE)
     footprint.SetLibDescription(
         f"FT37-43 upright {role}; bare core OD 9.525 ID 4.7498 thickness 3.175 mm; "
-        f"wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 1 mm drills. {SOURCE}. "
+        f"wound envelope 11.5 x 5.0 mm; 15.24 mm hand-formed lead pitch, 0.8 mm drills. {SOURCE}. "
         "3D model is bare core only. Transformer Primary/Secondary footprints form ONE assembly, "
         "opposed at 6.5 mm row spacing; primary owns shared body and model. Verify winding polarity."
     )
@@ -51,7 +51,7 @@ def make_footprint(name, role):
         pad.SetShape(pcbnew.PAD_SHAPE_CIRCLE)
         pad.SetPosition(point(horizontal, 0))
         pad.SetSize(point(2, 2))
-        pad.SetDrillSize(point(1, 1))
+        pad.SetDrillSize(point(0.8, 0.8))
         pad.SetLayerSet(pcbnew.LSET.AllCuMask())
         layers = pad.GetLayerSet()
         layers.AddLayer(pcbnew.F_Mask)
