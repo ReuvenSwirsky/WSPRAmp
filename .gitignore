@@ -5,5 +5,7 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.gbr
+*.gbrjob
 __pycache__/
 *.py[cod]
