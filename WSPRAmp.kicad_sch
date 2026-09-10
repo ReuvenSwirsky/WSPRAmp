@@ -3454,7 +3454,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4956,7 +4956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 24.13 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5171,7 +5171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L14.0mm_D4.5mm_P7.62mm_Vertical_Fastron_LACC"
+		(property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC"
 			(at 124.46 76.2 0)
 			(hide yes)
 			(show_name no)
