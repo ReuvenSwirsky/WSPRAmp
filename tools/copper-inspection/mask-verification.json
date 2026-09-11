@@ -1,0 +1,64 @@
+{
+  "board": "D:\\repos\\WSPRAmp\\WSPRAmp-layout.kicad_pcb",
+  "board_sha256": "a00ad1cbd17f1f4aebf30b48b1607b5f74fcad46cb567d2ddba45a94702b46b1",
+  "pth_pads": 60,
+  "mask_clearance_mm": 0.05,
+  "masks": {
+    "F": {
+      "total_openings": 63,
+      "pth_openings": 60,
+      "minimum_mask_web_mm": 0.12681240867131027,
+      "closest_components": [
+        [
+          "U3"
+        ],
+        [
+          "U3"
+        ]
+      ]
+    },
+    "B": {
+      "total_openings": 62,
+      "pth_openings": 60,
+      "minimum_mask_web_mm": 0.12681240867131027,
+      "closest_components": [
+        [
+          "U3"
+        ],
+        [
+          "U3"
+        ]
+      ]
+    }
+  },
+  "unchanged_fabrication_files": [
+    "F_Cu.gbr",
+    "B_Cu.gbr",
+    "F_Paste.gbr",
+    "B_Paste.gbr",
+    "F_Silkscreen.gbr",
+    "B_Silkscreen.gbr",
+    "Edge_Cuts.gbr",
+    "PTH.drl",
+    "NPTH.drl"
+  ],
+  "plated_drill_hits": 80,
+  "drc_errors": 0,
+  "refilled_drc_errors": 0,
+  "unconnected_items": 0,
+  "library_mismatch_warnings": 8,
+  "files": {
+    "WSPRAmp-layout-B_Cu.gbr": "286ef933a0a3dc2b3c008fbc98865eea7bb73a6b3d86b7e545a61603d0067889",
+    "WSPRAmp-layout-B_Mask.gbr": "385dfb52ec59a25a6e5535df71d0ff574280d9be52113c5a4a872e5e198739ca",
+    "WSPRAmp-layout-B_Paste.gbr": "0c2c2a4af0eafb14be8fd1c0b81a2df63dc067ecbb6c58f9ad057ce3566daca5",
+    "WSPRAmp-layout-B_Silkscreen.gbr": "6c3e5b59e0e4006679174c54e74b2fe794a96cdc3c72d1e63b8fae6071e946b1",
+    "WSPRAmp-layout-Edge_Cuts.gbr": "3877a90daa21093f09a18c3b4e9feb9d8711bc26969bbf1b87b17ed3f63ec433",
+    "WSPRAmp-layout-F_Cu.gbr": "a0fa33057001e7fab21437e2644c1a74036ab049975261ce46985058ac85dbf4",
+    "WSPRAmp-layout-F_Mask.gbr": "41df525d0230ea5d34f1f44dfbafe2d959ea33633528435e04320338757ab965",
+    "WSPRAmp-layout-F_Paste.gbr": "007aa19ecd4d6e39337ac87528c0f41196d2095c232b34674eab00bfc8090fa5",
+    "WSPRAmp-layout-F_Silkscreen.gbr": "9d128aefa5fb1a6a4a17a0050b350fc926ffe965e61cf5985896fff237b12409",
+    "WSPRAmp-layout-job.gbrjob": "5334c3870a535eb8795c9f0ab3799637b7cce27e28d0c5d692c1947168d6c1b6",
+    "WSPRAmp-layout-NPTH.drl": "66955e2332cee35b1b761beb8e8deaace43338143e8b65f07cb8ddfcdc7592d8",
+    "WSPRAmp-layout-PTH.drl": "79b0509948ad5567ce5a8c04760849bebe1c9c7da69edb097a0bbbc118e2c757"
+  }
+}

@@ -1,0 +1,158 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-10T21:09:41",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "WSPRAmp-layout.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'C_Disc_D10.5mm_W5.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 60.0
+                    },
+                    "uuid": "0d8e0f5a-c3be-4b96-9506-21d20975a548"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D10.5mm_W5.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 38.0
+                    },
+                    "uuid": "1791a924-d518-465a-a6f1-a48e174c7b27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D10.5mm_W5.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 58.0
+                    },
+                    "uuid": "18b73a3a-a9d9-43a4-9768-48ac2eee4bd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'RP2040-Zero_Headers_P2.54mm' does not match copy in library 'WSPRAmp'",
+            "items": [
+                {
+                    "description": "Footprint RZ1",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 83.0
+                    },
+                    "uuid": "6364d5f0-9a79-4134-b0d0-943bdb36f174"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D10.5mm_W5.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 73.0
+                    },
+                    "uuid": "77dcb672-7980-4560-a524-639822ed05fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D10.5mm_W5.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 93.0,
+                        "y": 60.0
+                    },
+                    "uuid": "99292283-5787-4217-9d92-4cfb3bdbea78"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC' does not match copy in library 'Inductor_THT'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 88.0
+                    },
+                    "uuid": "de0b2e08-910a-4058-bb7c-4e9a171e22af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D10.5mm_W5.0mm_P5.00mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 131.0,
+                        "y": 60.0
+                    },
+                    "uuid": "e2d22d44-b4c9-4484-896d-f65830eacbb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

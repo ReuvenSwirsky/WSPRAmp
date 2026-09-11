@@ -1,0 +1,17 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,KiLib_Generator,Sim.Device,Sim.Params,Description,Sim.Library,Sim.Name
+C1,1,220pf,C_Disc_D10.5mm_W5.0mm_P5.00mm,,,,tht,capacitor/THT/other,C,C=220pf,,,
+C2,1,10nf,C_Disc_D10.5mm_W5.0mm_P5.00mm,,,,tht,capacitor/THT/other,C,C=10nf,,,
+C3,1,32pF,C_Disc_D10.5mm_W5.0mm_P5.00mm,,,,tht,capacitor/THT/other,C,C=32pF,,,
+"C4, C6",2,70.26pF,C_Disc_D10.5mm_W5.0mm_P5.00mm,,,,tht,capacitor/THT/other,C,C=70.26pF,,,
+C5,1,227.36pF,C_Disc_D10.5mm_W5.0mm_P5.00mm,,,,tht,capacitor/THT/other,C,C=227.36pF,,,
+J1,1,Conn_Coaxial_Small,SMA_Amphenol_132289_EdgeMount,,,,smt,,,,"small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",,
+J2,1,Conn_01x05,PinHeader_1x05_P2.54mm_Vertical,,,,tht,connector/pin_header_socket,,,,,
+L1,1,1µH,L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC,,,,tht,choke_THT,L,L=1µH,,,
+"L2, L3",2,.46µH,FT37-43_Upright_Inductor_P15.24mm,,,,tht,,,,,,
+LP1,1,2.5µH,FT37-43_Upright_Bifilar_Primary,,,,tht,,,,,,
+LS1,1,2.5µH,FT37-43_Upright_Bifilar_Secondary,,,,tht,,,,,,
+R1,1,100k,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,,,,tht,resistor/THT,R,R=100k,,,
+R3,1,100,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,,,,tht,resistor/THT,R,R=100,,,
+RV1,1,R_Potentiometer_US,Potentiometer_Trimmer_Horizontal_Triangle_P5.00mm_H5.00mm,,,,tht,potentiometer/THT,,,,,
+RZ1,1,RP2040-Zero,RP2040-Zero_Headers_P2.54mm,,,,tht,,,,,,
+U3,1,T2N7002AK_G0_00,TO-92,,,,tht,,SUBCKT,,,Contrib/Toshiba/LVMOS/T2N7002AK_G0_00_enc.lib,CONTRIB/TOSHIBA/LVMOS/T2N7002AK_G0_00

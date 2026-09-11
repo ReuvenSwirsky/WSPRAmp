@@ -1,0 +1,27 @@
+W819020AS1M2 - Revised files for solder mask engineering question
+2026-09-10
+
+Option 2: Replace the previous Gerber/drill set with this complete set.
+Source board: WSPRAmp-layout.kicad_pcb
+
+All 60 plated component pads now have solder mask openings on BOTH sides.
+Each opening exposes the full copper pad with 0.05 mm clearance per edge
+(0.10 mm larger overall). Clearance is measured from the copper pad,
+NOT from the drilled hole. Please use the supplied mask layers.
+
+Front mask: 60 component PTH openings plus 3 existing J1 SMD openings.
+Back mask: 60 component PTH openings plus 2 existing J1 SMD openings.
+Via tenting is unchanged. There are 80 plated holes: 60 component holes
+and 20 vias. The NPTH drill file is intentionally empty.
+
+Copper, board outline, component positions, nets and hole sizes were not
+modified. Drills are exported in metric units; the previous inch export
+rounded coordinates and tool diameters by up to 0.00124 mm.
+Silkscreen artwork is unchanged. The previous empty User_Comments layer
+is omitted. Gerber filenames use Silkscreen instead of SilkS.
+
+Verification: KiCad 10.0.5 DRC, including an in-memory zone refill,
+reported zero errors and zero unconnected items. Eight footprint-library
+mismatch warnings remain. Independent Gerber/Excellon checks verified
+all PTH openings, pad coverage, drill alignment, unchanged non-mask
+geometry and unchanged J1 openings. Minimum mask web: 0.1268 mm at U3.
