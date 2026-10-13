@@ -4648,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2120_EdgeMount_Horizontal"
 			(at 223.52 110.49 0)
 			(hide yes)
 			(show_name no)

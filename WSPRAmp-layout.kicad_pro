@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "WSPRAmp.kicad_sch",
-        "name": "",
+        "filename": "WSPRAmp-layout.kicad_sch",
+        "name": "WSPRAmp-layout",
         "uuid": "f0cb9e4c-1cad-4668-82e9-b419c247f91d"
       }
     ],
