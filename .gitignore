@@ -9,3 +9,4 @@
 *.gbrjob
 __pycache__/
 *.py[cod]
+*.zip

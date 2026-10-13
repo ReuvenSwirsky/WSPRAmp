@@ -1,0 +1,23 @@
+SMA_Edge_6.3mm footprint and SMA-Edge.step model
+
+Source: SparkFun Electronics, SparkFun-KiCad-Libraries
+https://github.com/sparkfun/SparkFun-KiCad-Libraries
+Revision: 25af7faf567c3c6627d5065acf771ba0ff883103
+Upstream files:
+  footprints/SparkFun-Connector.pretty/SMA_Edge_6.3mm.kicad_mod
+  3dmodels/Connector.3dshapes/SMA-Edge.step
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+License statement:
+https://github.com/sparkfun/SparkFun-KiCad-Libraries/blob/25af7faf567c3c6627d5065acf771ba0ff883103/README.md#license
+
+Project adaptations: the model path uses KIPRJMOD, and the four ground pads
+use solid zone connections. Pad geometry is unchanged from SparkFun.
+The STEP model is unmodified. No endorsement by SparkFun is implied.
+
+Ground-pad center spacing: 5.08 mm. All pads: 1.5 x 4 mm.
+J1 is rotated -90 degrees at (138.619, 53) mm. The fabrication drawing's
+body shoulder at local y = -2.381 mm aligns with the board edge x = 141 mm.
+Pads end 0.381 mm inside that edge. Verify the actual connector against
+a 1:1 print; its manufacturer and axial dimensions are not confirmed.
