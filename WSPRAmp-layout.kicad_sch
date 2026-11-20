@@ -3023,13 +3023,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 161.29 110.49)
+			(xy 181.61 110.49) (xy 161.29 110.49)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "d584a415-ade1-4279-afd0-be3e05e4a836")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 186.69 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebb4c41b-cc4b-4233-b29e-02511ca33bfa")
 	)
 	(wire
 		(pts
@@ -5745,6 +5755,117 @@
 			(project "WSPRAmp"
 				(path "/f0cb9e4c-1cad-4668-82e9-b419c247f91d"
 					(reference "LP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ltspice:cap")
+		(at 181.61 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3885852-4f83-4c93-8468-2d8ef2965bac")
+		(property "Reference" "C7"
+			(at 184.15 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 184.15 114.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm"
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G/NP0"
+			(at 184.15 116.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.0668 1.0668)
+				)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "C=${VALUE}"
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e765db8-a7a3-4e7d-a3db-df6c48619382")
+		)
+		(pin "2"
+			(uuid "4c3bfb21-cf98-4870-b40c-61b74cb2902f")
+		)
+		(instances
+			(project "WSPRAmp"
+				(path "/f0cb9e4c-1cad-4668-82e9-b419c247f91d"
+					(reference "C7")
 					(unit 1)
 				)
 			)
